@@ -2,7 +2,7 @@
 
 import requests
 from src.queries import territories_query, alert_report_query, published_alerts_query, alerts_from_car_query, \
-    published_alert_query, mutation
+    published_alert_query, actions_by_alert_query, territories_of_interest_query, mutation
 
 
 class MapBiomasAlertApi(object):
@@ -14,6 +14,8 @@ class MapBiomasAlertApi(object):
     ALERT_REPORT_QUERY = alert_report_query
     TERRITORIES_QUERY = territories_query
     ALERTS_FROM_CAR_QUERY = alerts_from_car_query
+    ACTIONS_BY_ALERT_QUERY = actions_by_alert_query
+    TERRITORIES_OF_INTEREST_QUERY = territories_of_interest_query
 
     @classmethod
     def token(cls, credentials):

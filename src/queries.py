@@ -201,3 +201,36 @@ alerts_from_car_query = \
       alertsFromCar(carCode:$carCode) 
     }
     """
+
+actions_by_alert_query = \
+    """
+    query actions_by_alert($alertCode: Int!) {
+      actionsByAlert(alertCode: $alertCode){
+        actionDate
+        actionType
+        description
+        ruralPropertyId
+        link
+      }
+    }
+    """
+
+territories_of_interest_query = \
+    """
+    query my_maps{
+      myMaps{
+       alertNotifications {
+       alert{
+           alertCode
+           alertInsertedAt
+           bbox
+         }
+       }
+       name
+       territories {
+         name
+         version
+       }
+     }
+    }
+    """
