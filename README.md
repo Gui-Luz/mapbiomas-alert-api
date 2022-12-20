@@ -24,14 +24,16 @@ credentials = {'email': 'your email',
 token = MapBiomasAlertApi.token(credentials)
 ```
 ##### Quering the service
-After getting your bearer token, you can use the api to query the service. 
+After getting your bearer token you can use the api to query the service. 
 
-Currently, MapBiomas offers five types of queries:
+Currently, MapBiomas offers seven types of queries:
 - Published Alerts
 - Published Alert
 - Alert Report
 - Territories
 - Alerts From Car
+- Alert Actions
+- Territories of Interest
 
 You can find the complete service documentation [here](https://plataforma.alerta.mapbiomas.org/api/documentation).
 
