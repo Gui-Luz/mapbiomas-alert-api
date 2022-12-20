@@ -1,6 +1,6 @@
-#MapBiomas Alert Api
+# MapBiomas Alert Api
 
-###MapBiomas Alert Api is a python client for the MapBiomas Alert Api service.</p>
+### MapBiomas Alert Api is a python client for the MapBiomas Alert Api service.</p>
 
 MapBiomas Alert is a system that validates and refines deforestation alerts with high-resolution images. In one free and open access platform, the service gather all deforestation alerts in the country's territory and cross them with relevant information such as authorizations, embargoes, property's registry numbers, protected areas, indigenous lands, etc.
 
