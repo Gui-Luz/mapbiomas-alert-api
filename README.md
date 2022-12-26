@@ -65,7 +65,7 @@ result = MapBiomasAlertApi.query(token,
                                  MapBiomasAlertApi.PUBLISHED_ALERT_QUERY,
                                  filters)
 ```
-The result object of the query above should be a dictionary conatining the information about the deforastion alert
+The result object of the query above should be a dictionary containing the information about the deforastion alert
 ```python3
 {
   "data": {
